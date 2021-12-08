@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<meta name="description" content= "Portfolio: artifacts and descriptions of how I've grown as a student at DRSS." />
+	<meta name="keywords" content= "growth, portfolio, reflection, academics, school, projects" />
+	<meta name="author" content= "Ava Richards" />
+	<meta name="copyright" content= "2017-2021, Dayton Regional STEM School" />
+	<meta name="rating" content= "general" />
+	  
+    <title>Grade 7 Reflection 1</title>
+	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+	
+	<link type="text/css" href="../css/OverlayScrollbars.css" rel="stylesheet"/>
+        <script type="text/javascript" src="../js/OverlayScrollbars.js"></script>	
+	
+	
+		<script>
+				document.addEventListener("DOMContentLoaded", function() {
+			//The first argument are the elements to which the plugin shall be initialized
+			//The second argument has to be at least a empty object or a object with your desired options
+			var instance = OverlayScrollbars(document.getElementById("body"), {
+				className : "os-theme-dark os-theme-red",
+			});
+		});
+		
+		</script>
+	
+	
+	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
+	<link href="../css/global.css" rel="stylesheet" type="text/css">
+	<link href="../css/grade-07.css" rel="stylesheet" type="text/css">
+	  
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+	<link rel="manifest" href="../favicon/site.webmanifest">
+  </head>
+  <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="../media/SVG/logo.svg" id="logo" alt="">
+			<a href="../index.html" class="active">HOME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='../experience.html'">EXPERIENCE
+				  <i class="fa fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="../internship.html">INTERNSHIP</a>
+				</div>
+			</div> 
+		  
+			<a href="../resume.html">RESUME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='../projects.html'">PROJECTS
+				  <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="../grade-12.html">GRADE 12</a>
+				  <a href="../grade-11.html">GRADE 11</a>
+				  <a href="../grade-10.html">GRADE 10</a>
+				  <a href="../grade-09.html">GRADE 09</a>
+				  <a href="../grade-08.html">GRADE 08</a>
+				  <a href="../grade-07.html">GRADE 07</a>
+				</div>
+			</div> 
+			
+			<a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	</header>
+	
+	<main>
+			<h1>Persisting in the Name of Scratch</h1>
+				<div id="content-wrapper">
+					<div class='row'>
+						<div class='column'>
+							<p>Orrin Woodward, a New York Times bestselling author, once said "It's not what you're capable of, it's what you're willing to endure." This quote discusses the importance of persistence. It says that it isn't what allows you to succeed, it's persistence. Persistence, of course, being the ability to continue a venture despite any oppositions or obstacles. Through the process of the Scratch Project, I grew in my persistence and problem-solving skills.</p>
+							<p>Although it is likely that I have used persistence in other projects, such as in my artwork, where I would have to overcome issues like a lack of ideas, I've improved those skills through the Scratch Project. The Scratch Project was a project in STEM Foundations in which we told the backstory of our superhero character we created for Code: Elite Origins, which was a clas-wide game designed to assist with the material we were learning. We were going to create a game or animation telling the story of this character, using our knowledge gained in Scratch, which would include sprites and scripts. Sprites are an object in Scratch which performs functions controlled by scripts. Scripts, or blocks, as they’re called in Scratch, performs actions in a program.</p>
+						</div>
+						
+						<div class='column'>
+							<img class="gallery-img" src="Images/RichardsAva03302017.png" alt="The brainstorm I created to 
+							assist in the creation on my game." width="" height="auto" />
+
+							The brainstorm I created to assist in the creation on my game.
+						</div>
+					</div>
+					
+					<div class='row'>
+						<div class='double-column'>
+						  
+						<p>In the beginning, I thought "Hey! This sounds fun! I'm good at storytelling and coding, so I got this in the bag! Right?" Nope. At the time, I thought I was the Master Coder™ of the class (I wasn't) and that the project was going to be a breeze (it wasn't.) We first created a brainstorm for the project, and it ended up being quite helpful when I was stuck. I used it to gather ideas for what I needed to add next, and was a constant reminder of the story I needed to integrate into the game. However, I deviated from it quite a bit. As it turned out, most of my ideas in my brainstorm were either too difficult to add to the game or didn't fit the story, which set me back quite a bit. When I tried to first add volume control, I found it too difficult to add as a feature, so I scrapped the idea and I moved on. But I forgot to take it out of the game. To this day, there is still a non-functioning volume control. I didn't use my problem-solving and persistence skills. This is one of many examples of my lack of persistence in the beginning of the project. Comparing my brainstorm and my final draft, I could see many differences. In the final draft, the sprite design was a lot cleaner and looked like I put quite a lot of time into making them. You could also see that the various environments looked a livelier than in the rough draft. There was foliage and details in the ground, whereas in the brainstorm, it was just a path leading to a house. The final draft looked like I put a lot of work into it, and I did. I spent almost entire weekends creating my assets. These days were spent full of stress and worry caused by the looming deadline. I managed to overcome this, which shows that I’ve improved in my persistence skills.</p>
+					
+						<p>Let's fast-forward to about twenty minutes before the final deadline. First, my game was not working. Sprites that weren't meant to be visible until a certain point were visible in the middle of the screen. Second, I didn’t how to fix it. I tried to rearrange some of the blocks and refreshed the page. These were problem-solving strategies we were taught when something wouldn’t work. Miraculously, I solved the issues with certain sprites showing up at the wrong times. This last-minute disaster ultimately helped my skills in problem-solving, as I had to debug with very limited time available. It also assisted in the growth of my persistence skills because, in the beginning of the project, I scrapped most of the features of my game because they didn't work the way I wanted them to. I could've asked for help or tried to figure out a better way, but laziness got the best of me. In the end, I was determined to turn in my project on-time, and despite my struggles, I could fix my code and turn in my game.</p>
+			
+						<p>Through the Scratch project, I have improved in the quality of persistence, which has helped me to become more skilled in problem-solving in coding. Even though I struggled with rendering my ideas, I had to find out how to debug my code. I didn't know what I was doing, so I had to step out of my comfort zone. When things didn't go right, I persisted. The skills I have learned correlate with the fact that sometimes I have no clue what I'm doing. I'll admit, I tend to give up, which is evidenced by the fact that I gave up on more than half of the features of the game. In the future career I want as an animator, these skills would be necessary to create a good final product. I’d would have to be able to sit for hours, drawing between frames, only to create a few seconds of animation. If I didn’t know how to use persistence skills, I would probably quit after the third frame. With my skills in this project, I have learned to work through my struggles, rather than throwing in the towel.</p>
+
+						</div>
+				    </div>
+					
+					<div class='row'>
+						<div class='double-column'>
+							<h2>Gallery</h2>
+							<p>Here you can see screenshots of my final game in Scratch.</p>
+						</div>
+				    </div>
+					
+					<div class='row'>
+						<div class='column' style="border:0;">
+							<img class="gallery-img" src="Images/reflection_image_02.PNG" alt="A sample of my final code. These blocks 
+							allow the character to move." width="" height="auto" />
+							A sample screenshot of my game. This is inside of the cabin to the right.
+						</div>
+						<div class='column'>
+							<img class="gallery-img" src="Images/reflection_image_01.PNG" alt="A sample of my final code. These blocks 
+							allow the character to move." width="" height="auto" />
+
+							A screenshot of the starting screen to my game.
+						</div>
+						<div class='column'>
+							<img class="gallery-img" src="Images/reflection_image_03.PNG" alt="A sample of my final code. These blocks 
+							allow the character to move." width="" height="auto" />
+
+							A sample of my final code. These blocks allow the character to move.
+						</div>
+				    </div>	
+				</div>
+	</main>
+	
+	<footer>&copy;2017-2021. Ava Richards. All Rights Reserved.
+	</footer>
+  </body>
