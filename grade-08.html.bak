@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<meta name="description" content= "Portfolio: artifacts and descriptions of how I've grown as a student at DRSS." />
+	<meta name="keywords" content= "growth, portfolio, reflection, academics, school, projects" />
+	<meta name="author" content= "Ava Richards" />
+	<meta name="copyright" content= "2017-2021, Dayton Regional STEM School" />
+	<meta name="rating" content= "general" />
+	  
+    <title>Grade 8</title>
+
+	<link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+	
+	<link type="text/css" href="css/OverlayScrollbars.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/OverlayScrollbars.js"></script>	
+	
+	
+		<script>
+				document.addEventListener("DOMContentLoaded", function() {
+			//The first argument are the elements to which the plugin shall be initialized
+			//The second argument has to be at least a empty object or a object with your desired options
+			var instance = OverlayScrollbars(document.getElementById("body"), {
+				className : "os-theme-dark os-theme-red",
+			});
+		});
+		
+		</script>
+	
+	
+	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="css/grade-08.css" rel="stylesheet" type="text/css">
+	  
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="media/SVG/logo.svg" id="logo" alt="">
+			<a href="index.html">HOME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='experience.html'">EXPERIENCE
+				  <i class="fa fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="internship.html">INTERNSHIP</a>
+				</div>
+			</div> 
+		  
+			<a href="resume.html">RESUME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='projects.html'">PROJECTS
+				  <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="grade-12.html">GRADE 12</a>
+				  <a href="grade-11.html">GRADE 11</a>
+				  <a href="grade-10.html">GRADE 10</a>
+				  <a href="grade-09.html">GRADE 09</a>
+				  <a href="grade-08.html">GRADE 08</a>
+				  <a href="grade-07.html">GRADE 07</a>
+				</div>
+			</div> 
+			
+			<a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	</header>
+	
+	<main>
+			<h1>Grade 8</h1>
+			<div id="wrapper">
+				<div class='row'>
+					<div class='double-column'>
+						<p id="icon">
+							<a href="genius_hour.html">
+								<i class="fa fa-arrow-right"></i>
+							 &nbsp; To Genius Hour Page
+							</a>
+						</p>
+				
+						<p>On this page, you can find information regarding how I've grown as a student. Information on specific projects
+						and their corresponding narratives for the 2017-2018 school year are found here.</p>
+					</div>
+			   </div>
+			   
+				<div class='row'>
+					<div class='double-column'>
+						<h2>Greatest Growth</h2>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='column'>
+						<video
+							id="my-video"
+							class="video-js"
+							controls
+							preload="auto"
+							width="90%"
+							height="auto"
+							poster="media/Slide1.png"
+							data-setup="{}"
+						  >
+							<source src="media/video_01.mp4" type="video/mp4" />
+							<source src="MY_VIDEO.webm" type="video/webm" />
+							<p class="vjs-no-js">
+							  To view this video please enable JavaScript, and consider upgrading to a
+							  web browser that
+							  <a href="https://videojs.com/html5-video-support/" target="_blank"
+								>supports HTML5 video</a
+							  >
+							</p>
+						</video>
+					</div>
+					
+					<div class='column'>
+						<p>In the video above, I explain how I grew in my writing skills in Language Arts. I compare my writing from my
+							seventh grade reflections to my essay on skin colour.
+						</p>
+					</div>
+				</div>
+			  
+				<div class='row'>
+					<div class='double-column'>
+						<h2>Greatest Challenge</h2>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='column'>
+						<video
+							id="my-video"
+							class="video-js"
+							controls
+							preload="auto"
+							width="90%"
+							height="auto"
+							poster="media/Slide2.png"
+							data-setup="{}"
+						  >
+							<source src="media/video_02.mp4" type="video/mp4" />
+							<p class="vjs-no-js">
+							  To view this video please enable JavaScript, and consider upgrading to a
+							  web browser that
+							  <a href="https://videojs.com/html5-video-support/" target="_blank"
+								>supports HTML5 video</a
+							  >
+							</p>
+						</video>
+					</div>
+					
+					<div class='column'>
+						<p>In the video above, I explain how I struggle to balance systems of equations in Algebra I. I describe my challenges
+							using IXL and Mountain Math.</p>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='double-column'>
+						<h2>Greatest Success</h2>
+					
+						<p>When I planned my Genius Hour web page, I had not anticipated what I would need to learn for it to function.
+						The page looks simple now, though I went through many stages of trying to figure out more complex styling.I will
+						talk about the various styling methods I learned throughout this experience. On my website,
+						I had learned the necessary code for a complex image embed. Not to mention, I first created my complex navigation bar on 
+						my Genius Hour page.
+						</p>
+						
+						<p>When I was nearing the end of research period of my Genius Hour project, I found that the site I used to track my 
+						progress had an option to create an embedded Instagram page. I thought this would work well enough, but it did not work
+						on our school’s restricted Wi-Fi network. To remedy this, I wanted to make the exact same thing, but in a way that worked
+						without Iframes. I wanted to make an exact copy of the embedded webpage I used previously. To do this, I had to learn,
+						on my own time, to add an image overlay on hover, to add size-responsive equidistance (so the space between sections was
+						equal at all times, regardless of screen size.), and most difficult of all, to scale with the rest of my webpage. I have
+						a similar image showcase area on my about page, which had the same problem; when the website scaled up or down, the 
+						formatting would break. I have now fixed the issue, though I had not yet learned this when I created my Genius Hour page.
+						Though this knowledge was not actually applied to my Genius Hour page, I still learned from it. If not for learning about
+						responsive image formatting, I never would have been able to fix my about me page.
+						</p>
+						
+					</div>
+				</div>
+	</div>
+	</main>
+	
+	<footer>&copy;2017-2021. Ava Richards. All Rights Reserved.
+	</footer>
+  </body>

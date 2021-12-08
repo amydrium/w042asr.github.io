@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<meta name="description" content= "Portfolio: artifacts and descriptions of how I've grown as a student at DRSS." />
+	<meta name="keywords" content= "growth, portfolio, reflection, academics, school, projects" />
+	<meta name="author" content= "Ava Richards" />
+	<meta name="copyright" content= "2017-2021, Dayton Regional STEM School" />
+	<meta name="rating" content= "general" />
+	  
+    <title>Grade 7</title>
+	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+
+	<link type="text/css" href="css/OverlayScrollbars.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/OverlayScrollbars.js"></script>	
+	
+	
+		<script>
+				document.addEventListener("DOMContentLoaded", function() {
+			//The first argument are the elements to which the plugin shall be initialized
+			//The second argument has to be at least a empty object or a object with your desired options
+			var instance = OverlayScrollbars(document.getElementById("body"), {
+				className : "os-theme-dark os-theme-red",
+			});
+		});
+		
+		</script>
+	
+	
+	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="css/grade-07.css" rel="stylesheet" type="text/css">
+	  
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="media/SVG/logo.svg" id="logo" alt="">
+			<a href="index.html">HOME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='experience.html'">EXPERIENCE
+				  <i class="fa fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="internship.html">INTERNSHIP</a>
+				</div>
+			</div> 
+		  
+			<a href="resume.html">RESUME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='projects.html'">PROJECTS
+				  <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="grade-12.html">GRADE 12</a>
+				  <a href="grade-11.html">GRADE 11</a>
+				  <a href="grade-10.html">GRADE 10</a>
+				  <a href="grade-09.html">GRADE 09</a>
+				  <a href="grade-08.html">GRADE 08</a>
+				  <a href="grade-07.html">GRADE 07</a>
+				</div>
+			</div> 
+			
+			<a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	</header>
+	
+	<main>
+		<h1>Grade 7</h1>
+		
+
+
+	
+	<div id="content-wrapper">
+	  <div class='row'>
+		<div class='column'>
+			<p>I feel I grew the most in my persistence skills in the Scratch Project. In fact, it is uncanny how similar 
+			these projects are. I start out great, but later I find myself struggling immensely just to fulfill the 
+			requirements. Before the Scratch project, I would've given up by now. But now, I still haven't given up, 
+			somehow. I've used my persistence skills to be able to actually finish the project without missing any 
+			requirements. Regardless, my growth in these skills is evidenced by the fact that, knowing the deadlines, I 
+			used my time management skills to experiment with code during my freetime, rather than during proper 
+			worktime.In the beginning of the school year, I spent most of my time on asethetics, and less on actually 
+			completing the goal. 
+			</p>
+		</div>
+		<div class='column'>
+				<h2>Project Growth Reflections</h2>
+				<p>Click on the icon to view the reflection associated with it.</p>
+				<div class="wrapper">
+					<a href="grade-07/reflection-01.html">
+						<img src="media/7thGradeIcon1.png" width="126px" height="126px" alt=""/>
+					</a>
+					<h3>Persisting in the Name of Scratch: STEM Foundations</h3>
+				</div>
+				<div class="wrapper">
+					<a href="grade-07/reflection-02.html">
+						<img src="media/7thGradeIcon2.png" width="126px" height="126px" alt="" />
+					</a>
+					<h3>It's Not Just a Game: World History</h3>
+				</div>
+		</div>
+	  </div>
+	</div>
+	</main>
+	
+	<footer>&copy;2017-2021. Ava Richards. All Rights Reserved.
+	</footer>
+  </body>

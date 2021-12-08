@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<meta name="description" content= "Portfolio: artifacts and descriptions of how I've grown as a student at DRSS." />
+	<meta name="keywords" content= "growth, portfolio, reflection, academics, school, projects" />
+	<meta name="author" content= "Ava Richards" />
+	<meta name="copyright" content= "2017-2021, Dayton Regional STEM School" />
+	<meta name="rating" content= "general" />
+	  
+    <title>Experience</title>
+	
+		<link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+	
+		<link type="text/css" href="css/OverlayScrollbars.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/OverlayScrollbars.js"></script>	
+	
+	
+		<script>
+				document.addEventListener("DOMContentLoaded", function() {
+			//The first argument are the elements to which the plugin shall be initialized
+			//The second argument has to be at least a empty object or a object with your desired options
+			var instance = OverlayScrollbars(document.getElementById("body"), {
+				className : "os-theme-dark os-theme-red",
+			});
+		});
+		
+		</script>
+	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
+	<link href="css/experience.css" rel="stylesheet" type="text/css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	  
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="media/SVG/logo.svg" id="logo" alt="">
+			<a href="index.html">HOME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='experience.html'">EXPERIENCE
+				  <i class="fa fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="internship.html">INTERNSHIP</a>
+				</div>
+			</div> 
+		  
+			<a href="resume.html">RESUME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='projects.html'">PROJECTS
+				  <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="grade-12.html">GRADE 12</a>
+				  <a href="grade-11.html">GRADE 11</a>
+				  <a href="grade-10.html">GRADE 10</a>
+				  <a href="grade-09.html">GRADE 09</a>
+				  <a href="grade-08.html">GRADE 08</a>
+				  <a href="grade-07.html">GRADE 07</a>
+				</div>
+			</div> 
+			
+			<a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	</header>
+	
+	<main>
+	
+	<section id="video">
+				<video
+				id="my-video"
+				class="video-js"
+				controls
+				preload="auto"
+				width="90%"
+				height="auto"
+				poster="MY_VIDEO_POSTER.jpg"
+				data-setup="{}"
+			  >
+				<source src="media/Resume_Screencast.mp4" type="video/mp4" />
+				<source src="MY_VIDEO.webm" type="video/webm" />
+				<p class="vjs-no-js">
+				  To view this video please enable JavaScript, and consider upgrading to a
+				  web browser that
+				  <a href="https://videojs.com/html5-video-support/" target="_blank"
+					>supports HTML5 video</a
+				  >
+				</p>
+			  </video>
+	</section>
+	
+	<section id="experience">
+			<h1>Experience</h1>
+			<div id="xp-wrapper">
+				<div class='row'>
+					<div class='column'>
+						<article>
+							<h2>Interactive Resume in the Unreal Engine</h2>
+							
+							<p>In October 2021, my Game Design teacher approached me about creating an interactive resume in the Unreal Engine as an example for a lesson he was planning for Epic Games. The Unreal Engine is a free-to-use engine maintained by Epic Games and is used as a base for video games, but it also has other applications; in this case, I used the engine to create a resume. After making the level in the engine, I also created a video overview of my resume, which I have attached to this page. To create the resume, I created 3D models in Blender and created image textures in Adobe Photoshop before importing my work into the Unreal Engine. During this process, I learned how to export 3D models for use in game engines and how to use visual node scripting within the Unreal Engine to achieve specific effects. In total, creating the resume took four weeks. </p>
+						</article>
+					</div>
+					
+					<div class='column'>
+						<div id="artifacts">
+							<div class="slideshow-container">
+
+								<div class="mySlides fade">
+								  <img src="media/scopophobia.png" style="width:100%" alt="A painting of a pink woman with many eyes. There are two disembodied hands on her neck. The drawing has an abstract and colorful style.">
+								</div>
+
+								<div class="mySlides fade">
+								  <img src="media/Artboard 3.png" style="width:100%" alt="4 different variations on the same logo design of a robot holding a sword. The robot is on top of a shield crest with the text, 'The Innovators' under it.">
+								</div>
+
+								<div class="mySlides fade">
+								  <img src="media/noeyedgirl.png" style="width:100%" alt="A drawing of a woman with no eyes with an expression of fear. There are two figures behind her. The drawing is styled after vintage comic book covers and reads 'No-Eyed Girl' in large print at the top.">
+								</div>
+
+								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+								</div>
+								<br>
+
+								<div style="text-align:center">
+								  <span class="dot" onclick="currentSlide(1)"></span> 
+								  <span class="dot" onclick="currentSlide(2)"></span> 
+								  <span class="dot" onclick="currentSlide(3)"></span> 
+								</div>
+						</div>
+							<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+
+							function plusSlides(n) {
+							  showSlides(slideIndex += n);
+							}
+
+							function currentSlide(n) {
+							  showSlides(slideIndex = n);
+							}
+
+							function showSlides(n) {
+							  var i;
+							  var slides = document.getElementsByClassName("mySlides");
+							  var dots = document.getElementsByClassName("dot");
+							  if (n > slides.length) {slideIndex = 1}    
+							  if (n < 1) {slideIndex = slides.length}
+							  for (i = 0; i < slides.length; i++) {
+								  slides[i].style.display = "none";  
+							  }
+							  for (i = 0; i < dots.length; i++) {
+								  dots[i].className = dots[i].className.replace(" active", "");
+							  }
+							  slides[slideIndex-1].style.display = "block";  
+							  dots[slideIndex-1].className += " active";
+							}
+							</script>
+					</div>
+				</div>
+				
+				<div class='row'>
+					<div class='double-column'>
+						<article>
+						  <h2>E-Sports Logo Design</h2>
+							 <p>During first semester this year, I was tasked with creating a potential logo design for the DRSS Innovators E-Sports team. I first drafted the logo in Adobe Photoshop, and I then created a vector version of my design; during this project, I learned a lot about vector tools in Adobe Illustrator and how to prepare images for printing. During this experience, I learned more about how to work with clients in the context of graphic design. While I may not pursue graphic design as a career, creating a logo for my school's E-Sports team was a valuable experience and gave me an opportunity to add to my art portfolio.</p>
+						</article>
+					</div>
+				</div>
+				
+				<div class='row'>
+					<div class='column'>
+						<article>
+							<h2>Scholastic Art Competition</h2>
+							
+							<p>During December 2020, I participated in the 2021 Scholastic Art Competition. To the left, you can see my painting, Scopophobia. Because I won a Gold Key Award for this painting, my painting was considered for judging with competitors nationwide. My work was held at an exhibition at the K12 Gallery &amp; TEJAS in Dayton in February 2021, where I received my reward and gave an interview.</p>
+						</article>
+					</div>
+					
+					<div class='column'>
+						<article>
+							<h2>Merchandise Design</h2>
+							
+							<p>During the summer between tenth and eleventh grade, I created a poster design to be sold as merchandise for a fan-created zine for the album, "Spirit Phone" by Lemon Demon. My piece was inspired by vintage comic book covers, and represents a song called, "No-Eyed Girl." From this experience, I established connections with a publishing company and sold my artwork for the first time. Additionally, I worked alongside many other artists and made friends along the way. Overall, I enjoyed designing merchandise, and I would love to design merchandise again in the future.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+	  </section>
+	</main>
+	
+	<footer>&copy;2017-2021. Ava Richards. All Rights Reserved.
+	</footer>
+  </body>

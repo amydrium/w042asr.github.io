@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<meta name="description" content= "Portfolio: artifacts and descriptions of how I've grown as a student at DRSS." />
+	<meta name="keywords" content= "growth, portfolio, reflection, academics, school, projects" />
+	<meta name="author" content= "Ava Richards" />
+	<meta name="copyright" content= "2017-2021, Dayton Regional STEM School" />
+	<meta name="rating" content= "general" />
+	  
+    <title>Projects</title>
+	
+	<link type="text/css" href="css/OverlayScrollbars.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/OverlayScrollbars.js"></script>	
+	
+	
+		<script>
+				document.addEventListener("DOMContentLoaded", function() {
+			//The first argument are the elements to which the plugin shall be initialized
+			//The second argument has to be at least a empty object or a object with your desired options
+			var instance = OverlayScrollbars(document.getElementById("body"), {
+				className : "os-theme-dark os-theme-red",
+			});
+		});
+		
+		</script>
+	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="css/projects.css" rel="stylesheet" type="text/css"> 
+	  
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="media/SVG/logo.svg" id="logo" alt="">
+			<a href="index.html">HOME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='experience.html'">EXPERIENCE
+				  <i class="fa fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="internship.html">INTERNSHIP</a>
+				</div>
+			</div> 
+		  
+			<a href="resume.html">RESUME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='projects.html'">PROJECTS
+				  <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="grade-12.html">GRADE 12</a>
+				  <a href="grade-11.html">GRADE 11</a>
+				  <a href="grade-10.html">GRADE 10</a>
+				  <a href="grade-09.html">GRADE 09</a>
+				  <a href="grade-08.html">GRADE 08</a>
+				  <a href="grade-07.html">GRADE 07</a>
+				</div>
+			</div> 
+			
+			<a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	</header>
+	
+	<main>
+		<h1>Projects</h1>
+		<div id="overview">
+			Using the links in the dropdown above or the links on this page, you can access my project reflections from 7th grade to 12th grade! On each page will be at least reflection and accompanying images. Below, you can see a history of my website's design. Click the button on each image to go to the project reflections of that year.
+			<br><br>
+			
+			<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="media/grade-12.png" style="width:100%" alt="A screenshot of this website's homepage.">
+  <div class="text">2021-2022</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="media/grade-11.png" style="width:100%" alt="My portfolio last year. It is very colorful and has a minimalist aesthetic.">
+  <div class="text">2020-2021</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="media/grade-10.png" style="width:100%" alt="My portfolio two years ago. It is white, gold, and dark green, with a nature theme.">
+  <div class="text">2019-2020</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="media/grade-9.png" style="width:100%" alt="My portfolio in ninth grade. The website is all white aside from a colorful header image taken at an abandoned community garden.">
+  <div class="text">2018-2019</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="media/grade-8.png" style="width:100%" alt="My portfolio in eighth grade. The website is dark grey with light yellow accents. Unlike the others, it uses serif fonts. ">
+  <div class="text">2017-2018</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="media/grade-7.png" style="width:100%" alt="My portfolio in seventh grade. The website is dark blue, orange, and light green. Compared to the others, it is sloppy.">
+  <div class="text">2016-2017</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+		</div>
+		
+		<h2>Five Qualities</h2>
+		<div id="qualities">
+			<div id="creativity">
+				<h3>Creativity</h3>
+				<p>Creativity is the development of original ideas to achieve a goal. While creativity is typically used in relation to artistic work, it also applies to how one approaches developing solutions to problems.</p>
+			</div>
+			<div id="collaboration">
+				<h3>Collaboration</h3>
+				<p>Collaboration is the combination of skills or work between different people to achieve a goal. By collaborating, one can complete work efficiently and build relationships with peers.</p>
+			</div>
+			<div id="communication">
+				<h3>Communication</h3>
+				<p>Communication is the act of expressing information to others. Communication can be verbal or nonverbal, i.e. communication can be spoken, written, or conveyed nonverbally in other ways, such as through body language. Communication and collaboration go hand-in-hand; in order to effectively work together, one must communicate with their peers. Communication is also essential to maintaining and developing personal relationships.</p>
+			</div>
+			<div id="inquiry">
+				<h3>Inquiry</h3>
+				<p>Inquiry is the act of asking questions. In DRSS culture, it represents being inquisitive and asking clarifying questions when needed. Inquiry, like creativity, is a necessary component of problem-solving.</p>
+			</div>
+			<div id="persistence">
+				<h3>Persistence</h3>
+				<p>Persistence is the continuance of a pursuit in the face of challenges. Persistence is a part of the growth mindset in that persistent individuals must continue to grow in spite of failure.</p>
+			</div>
+		</div>
+	</main>
+	
+	<footer>&copy;2017-2021. Ava Richards. All Rights Reserved.
+	</footer>
+  </body>

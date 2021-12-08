@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<meta name="description" content= "Portfolio: artifacts and descriptions of how I've grown as a student at DRSS." />
+	<meta name="keywords" content= "growth, portfolio, reflection, academics, school, projects" />
+	<meta name="author" content= "Ava Richards" />
+	<meta name="copyright" content= "2017-2021, Dayton Regional STEM School" />
+	<meta name="rating" content= "general" />
+	  
+    <title>Home</title>
+	
+	<link type="text/css" href="css/OverlayScrollbars.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/OverlayScrollbars.js"></script>	
+	
+		<script>
+				document.addEventListener("DOMContentLoaded", function() {
+			//The first argument are the elements to which the plugin shall be initialized
+			//The second argument has to be at least a empty object or a object with your desired options
+			var instance = OverlayScrollbars(document.getElementById("body"), {
+				className : "os-theme-dark os-theme-red",
+			});
+		});
+		
+		</script>
+	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
+	
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	  
+	<link href="css/index.css" rel="stylesheet" type="text/css">  
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="media/SVG/logo.svg" id="logo" alt="">
+			<a href="index.html">HOME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='experience.html'">EXPERIENCE
+				  <i class="fa fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="internship.html">INTERNSHIP</a>
+				</div>
+			</div> 
+		  
+			<a href="resume.html">RESUME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='projects.html'">PROJECTS
+				  <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="grade-12.html">GRADE 12</a>
+				  <a href="grade-11.html">GRADE 11</a>
+				  <a href="grade-10.html">GRADE 10</a>
+				  <a href="grade-09.html">GRADE 09</a>
+				  <a href="grade-08.html">GRADE 08</a>
+				  <a href="grade-07.html">GRADE 07</a>
+				</div>
+			</div> 
+			
+			<a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	</header>
+	
+	<div id="content">
+		
+		<img alt="A vector drawing of Ava Richards, the owner of this portfolio. They are pale-skinned with curly, medium-length hair and wire-framed glasses. The drawing is embellished with colorful boxes and the year '2022' for their year of graduation, and is colored with the same dark grey, green, and purple color scheme as the website." src="media/home.png" id="portrait"/>
+	
+		<div class="intro">
+			<p id="p1">Hello! I am Ava Richards, a graduating senior at the Dayton Regional STEM School (DRSS). After graduation, I will pursue a bachelor's degree in Visual Arts.
+			Some of my interests include art, computer science, horticulture, and video game design. I am also the co-president of the DRSS Gardening Club.
+			</p>
+			<p id="p2">
+			On my Experiences page, you can read more about me, and if you would like to see my resume, you can do so on my Resume page. The purpose of this website is to detail past growth experiences through project reflections. On the Projects page, you can step back in time to see past projects from the 2016-17 school year to the current 2021-2022 school year. Lastly, if you would like to read more about my summer internship at Aspire Church, you can visit my Internship page, which is under the Experiences dropdown menu.</p>
+		
+		</div>
+	
+	</div>
+	
+	<footer>
+	&copy;2017-2021. Ava Richards. All Rights Reserved.
+	</footer>
+	
+  </body>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<meta name="description" content= "Portfolio: artifacts and descriptions of how I've grown as a student at DRSS." />
+	<meta name="keywords" content= "growth, portfolio, reflection, academics, school, projects" />
+	<meta name="author" content= "Ava Richards" />
+	<meta name="copyright" content= "2017-2021, Dayton Regional STEM School" />
+	<meta name="rating" content= "general" />
+	  
+    <title>Test</title>
+	
+	<link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+	
+	<link type="text/css" href="css/OverlayScrollbars.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/OverlayScrollbars.js"></script>	
+	
+	
+		<script>
+				document.addEventListener("DOMContentLoaded", function() {
+			//The first argument are the elements to which the plugin shall be initialized
+			//The second argument has to be at least a empty object or a object with your desired options
+			var instance = OverlayScrollbars(document.getElementById("body"), {
+				className : "os-theme-dark os-theme-red",
+			});
+		});
+		
+		</script>
+	
+	
+	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="css/test.css" rel="stylesheet" type="text/css">
+	  
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
+	<header>
+		<nav class="topnav" id="myTopnav">
+			<img src="media/SVG/logo.svg" id="logo" alt="">
+			<a href="index.html">HOME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='experience.html'">EXPERIENCE
+				  <i class="fa fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="internship.html">INTERNSHIP</a>
+				</div>
+			</div> 
+		  
+			<a href="resume.html">RESUME</a>
+		  
+			<div class="dropdown">
+				<button class="dropbtn" onclick="parent.location='projects.html'">PROJECTS
+				  <i class="fas fa-chevron-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="grade-12.html">GRADE 12</a>
+				  <a href="grade-11.html">GRADE 11</a>
+				  <a href="grade-10.html">GRADE 10</a>
+				  <a href="grade-09.html">GRADE 09</a>
+				  <a href="grade-08.html">GRADE 08</a>
+				  <a href="grade-07.html">GRADE 07</a>
+				</div>
+			</div> 
+			
+			<a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
+	</header>
+	
+	<main>
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et pharetra lacus. Curabitur convallis lacus odio, et lobortis nunc imperdiet ac. Cras a urna posuere, feugiat ex nec, varius nisl. Sed a tortor porttitor leo rutrum laoreet. Suspendisse volutpat molestie laoreet. Morbi et elit ac felis tristique hendrerit non sed lectus. Nunc consequat eget nibh sed bibendum. Suspendisse interdum sollicitudin augue at gravida. Cras porta malesuada turpis. Pellentesque interdum ex a metus viverra vestibulum. Morbi in turpis rhoncus, feugiat risus id, mattis ex. Aliquam lectus risus, ultricies sit amet finibus sit amet, consequat eu ex. Nam ullamcorper ut turpis non consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+	<div id="xp-wrapper">
+	  	  <div class='row'>
+		<div class='double-column'>
+		  <div class='blue-column'>
+			Some Text in row 3 double column 1
+		  </div>
+		</div>
+	   </div>
+	  <div class='row'>
+		<div class='column'>
+		  <div class='blue-column'>
+			Some Text in Column One
+		  </div>
+		</div>
+		<div class='column'>
+		  <div class='green-column'>
+			Some Text in Column Two
+		  </div>
+		</div>
+	  </div>
+		<div class='row'>
+		<div class='column'>
+		  <div class='double-column'>
+			Some Text in Column One
+		  </div>
+		</div>
+		<div class='column'>
+		  <div class='green-column'>
+			Some Text in Column Two
+		  </div>
+		</div>
+	  </div>
+	  <div class='row'>
+		<div class='double-column'>
+		  <div class='blue-column'>
+			Some Text in row 3 double column 1
+		  </div>
+		</div>
+	   </div>
+	</div>
+	
+	
+	</main>
+	
+	<footer>&copy;2017-2021. Ava Richards. All Rights Reserved.
+	</footer>
+  </body>
