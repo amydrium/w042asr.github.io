@@ -55,6 +55,9 @@ img{
   text-align:justify;
 }
 
+.column:first-of-type{
+	border-right: 1px solid #95FE47;
+}
 
 .double-column {
   display: flex;
