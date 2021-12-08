@@ -87,8 +87,8 @@
 	<main>
 		<h1>Projects</h1>
 		<div id="overview">
-			Using the links in the dropdown above or the links on this page, you can access my project reflections from 7th grade to 12th grade! On each page will be at least reflection and accompanying images. Below, you can see a history of my website's design. Click the button on each image to go to the project reflections of that year.
-			<br><br>
+			<p>Using the links in the dropdown above, you can access my project reflections from 7th grade to 12th grade! On each page will be at least one reflection and accompanying images. Below, you can see a history of my website's design. </p>
+
 			
 			<div class="slideshow-container">
 
