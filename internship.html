@@ -13,8 +13,12 @@
 	  
     <title>Home</title>
 	
+	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
+	
+	
 	<link type="text/css" href="css/OverlayScrollbars.css" rel="stylesheet"/>
         <script type="text/javascript" src="js/OverlayScrollbars.js"></script>	
+	
 	
 		<script>
 				document.addEventListener("DOMContentLoaded", function() {
@@ -27,21 +31,16 @@
 		
 		</script>
 	
-	<script src="https://kit.fontawesome.com/2f1d90ab79.js" crossorigin="anonymous"></script>
-	
 	<link rel="stylesheet" href="https://use.typekit.net/vxv3nwz.css">
-	
 	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<link href="css/internship.css" rel="stylesheet" type="text/css">
 	  
-	<link href="css/index.css" rel="stylesheet" type="text/css">  
-	
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 	<link rel="manifest" href="favicon/site.webmanifest">
   </head>
   <body onload="parent.scrollTo(0,0); $('html,body').scrollTop(0);" id="body">
-	<header>
 		<nav class="topnav" id="myTopnav">
 			<img src="media/SVG/logo.svg" id="logo" alt="">
 			<a href="index.html">HOME</a>
@@ -85,23 +84,32 @@
 		</script>
 	</header>
 	
-	<div id="content">
-		
-		<img alt="A vector drawing of Ava Richards, the owner of this portfolio. They are pale-skinned with curly, medium-length hair and wire-framed glasses. The drawing is embellished with colorful boxes and the year '2022' for their year of graduation, and is colored with the same dark grey, green, and purple color scheme as the website." src="media/home.png" id="portrait"/>
+	<main>
 	
-		<div class="intro">
-			<p id="p1">Hello! I am Ava Richards, a graduating senior at the Dayton Regional STEM School (DRSS). After graduation, I will pursue a bachelor's degree in Visual Arts.
-			Some of my interests include art, computer science, horticulture, and video game design. I am also the co-president of the DRSS Gardening Club.
-			</p>
-			<p id="p2">
-			On my Experiences page, you can read more about me, and if you would like to see my resume, you can do so on my Resume page. The purpose of this website is to detail past growth experiences through project reflections. On the Projects page, you can step back in time to see past projects from the 2016-17 school year to the current 2021-2022 school year. Lastly, if you would like to read more about my summer internship at Aspire Church, you can visit my Internship page, which is under the Experiences dropdown menu.</p>
-		
-		</div>
+		<section id="cer">
+			<div id="adobe-dc-view" style="height:500px;"></div></div>
+				 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+				 <script type="text/javascript">
+					document.addEventListener("adobe_dc_view_sdk.ready", function()
+					{
+						var adobeDCView = new AdobeDC.View({clientId: "82757b3d38cf4d32babd559e3fbbe4ed", divId: "adobe-dc-view"});
+						adobeDCView.previewFile(
+					   {
+						  content:   {location: {url: "media/CER.pdf"}},
+						  metaData: {fileName: "CER.pdf"}
+					   }, {showDownloadPDF: true,
+						   showLeftHandPanel:false,
+						   showAnnotationTools: false});
+					});
+						  </script>
+		</section>
+	  
+	  <section id="cer-abstract">
+		<h1>Career Exploration Report</h1>
+	  	<p>This report details two careers and four internship opportunities that relate to those careers. Extensive research about the two careers, multimedia art and animation and fashion design, was performed using a variety of online sources. Many different websites, including government, informational, and corporate sources were used, including the Bureau of Labor Statistics’ Occupational Outlook Handbook and the College Board Big Future College Search. From this research, four internships were located. Out of the four, interning at PerBlue Games is preferable, because not only is the internship remote, but it also offers real-world experience working as a video game artist in a studio setting. Next steps include building a work portfolio to present, applying for an internship at PerBlue Games, and continuing to build skills related to multimedia art and animation.</p>
+	  </section>
+	</main>
 	
-	</div>
-	
-	<footer>
-	&copy;2017-2021. Ava Richards. All Rights Reserved.
+	<footer>&copy;2017-2021. Ava Richards. All Rights Reserved.
 	</footer>
-	
   </body>
