@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+body
+{
+	margin:0;
+	padding:0;
+	background : #F0E9E1;
+	background : rgba(240, 233, 225, 1);
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 1377px;
+	height : 1566px;
+		font-family : Neue Haas Grotesk Display Pro;
+	font-size : 36px;
+	letter-spacing : -1.01px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+}
+
+nav
+{
+	position : absolute ;
+	left : 33px;
+	top : 47px;
+	width : 776px;
+	height : 40px;
+	display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+	color:black;
+	text-decoration:none;
+	border-bottom:2px solid rgba(0,0,0,0);
+}
+
+nav a:hover{
+	border-bottom:2px solid #95FE47;
+	transition:0.3s;
+}
+
+.logo
+{
+	background-image : url(logo.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 875px;
+	top : 28px;
+	width : 475px;
+	height : 84px;
+}
+
+.header-bg
+{
+	background : #FDBEBF;
+	background : rgba(253, 190, 191, 1);
+	position : absolute ;
+	left : 72px;
+	top : 156px;
+	width : 403px;
+	height : 510px;
+}
+
+.portfolio-header
+{
+	background-image : url(portfolio-header.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 123px;
+	top : 223px;
+	width : 477px;
+	height : 499px;
+	z-index:3;
+}
+
+.intro{
+	position:absolute;
+	top:227px;
+	left:693px;
+	width:540px;
+	
+}
+
+.arrow
+{
+	position : absolute ;
+	left : 961px;
+	top : 577px;
+	width : 54px;
+	height : 81px;
+	background-image: url(arrow.png);
+}
+
+
+
+.about
+{
+	background : #FC97D9;
+	background : rgba(252, 151, 217, 1);
+	position : absolute ;
+	left : 691px;
+	top : 810px;
+	width : 612px;
+	height : 567px;
+	z-index:2;
+}
+
+.about-bg
+{
+	background : #33BF8A;
+	background : rgba(51, 191, 138, 1);
+	position : absolute ;
+	left : 601px;
+	top : 945px;
+	width : 702px;
+	height : 513px;
+}
+
+
+.about-title
+{
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-size : 143px;
+	font-weight:900;
+	letter-spacing : -4px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+	position:absolute;
+	z-index:3;
+	left:686px;
+	top:612px;
+	width:612px;
+	height:auto;
+	text-align:right;
+}
+
+.about-text{
+	position:absolute;
+	left:72px;
+	top:945px;
+	width:468px;
+	height:513px;
+	margin:0;
+}
+

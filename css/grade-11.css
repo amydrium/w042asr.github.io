@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+h1{
+	padding:2.5% 2.5% 0 2.5%;
+	margin:0;
+}
+
+#intro-paragraph{
+	height:auto;
+	top:10%;
+	width:100%;
+	padding:2.5%;
+}
+
+#emphasis-quote{
+	height:auto;
+	padding: 5%;
+	width:100%;
+	text-align: center;
+	font-size: 28px;
+	border-top: 1px solid #95FE47;
+	border-bottom: 1px solid #95FE47;
+	color: #95FE47;
+}
+
+
+#emphasis-quote p{
+	margin:auto;
+	height:auto;
+	display:inline-block;
+}
+
+#artifacts{
+	height:auto;
+	width:100%;
+	padding:5% 0;
+}
+
+
+#artifact-imgs{
+	width:100%;
+	display: flex;
+  justify-content: space-between;
+	padding:0 5%;
+	margin:auto;
+}
+
+#artifact-imgs img{
+	width:33%;
+	height:auto;
+}
+
+@media screen and (max-width: 600px) {
+	#intro-paragraph{
+		padding:2.5%;
+	}
+}

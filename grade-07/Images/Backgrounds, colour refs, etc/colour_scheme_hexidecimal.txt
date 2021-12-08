@@ -1,0 +1,4 @@
+Dark Grey- #302E2E
+Orange-Red- #FF5733
+Blue- #3D3D6B
+Pale Green- #ADD45C
