@@ -5,16 +5,25 @@ main{
 	padding:2.5%;
 }
 
-h1{
+h1, h2{
 	margin:0;
 }
+
 
 #wrapper {
   margin: 15px;
 }
 
+
 img{
 	width:100%;
+}
+
+.caption{
+	color:#95FE47;
+	font-style: italic;
+	font-size:16px;
+	letter-spacing : 1px;
 }
 
 .row {
